@@ -12,59 +12,171 @@
 .fl {
   float: left;
 }
+.fr {
+  float: right;
+}
 .color-white {
   color:white;
 }
 .align-center {
   text-align: center;
 }
+.ul {
+  list-style: none;
+}
+.a {
+  text-decoration: none;
+}
 /* //utility  */
 .wrapper{
   height: 100vh;
   width: 100vw;
 }
+/* SIDEBAR */
 .sidebar{
-  width: 15%;
-  height: 700px;
+  width: 13%;
   background-color: #000;
+  height: calc(100vh - 75px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .img-logo {
-  margin-top: 15px;
-  min-width: 150px;
+  margin: 15px;
 }
 .img-logo > img{
-  height: 37px;
+  height: 30px;
   width: auto;
 }
 #sidebar-menu{
-  list-style: none;
   padding-left: 15px;
-  padding-top: 25px;
 }
 #sidebar-menu > .sidebar-li-menu {
-  margin: 7px 0;
-  font-size: 16px;
+  font-size: 12px;
+  display: flex;
+  line-height: 25px;
 }
 #sidebar-menu > .sidebar-li-menu > img {
-  height: 23px;
+  height: 19px;
   width: auto;
 }
 #sidebar-menu > .sidebar-li-menu > a {
   text-decoration: none;
   vertical-align: middle;
-  margin-left: 7px;
+  margin-left: 10px;
 }
 #playlist-title {
-  margin: 20px 15px;
+  margin: 15px 10px;
 }
+.container-add{
+  display: flex;
+  margin-left: 15px;
+}
+#add {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+#width, #height {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000;
+}
+#width {
+  width: 15px;
+  height: 3px;
+}
+#height{
+  width: 3px;
+  height: 15px;
+}
+#creaplaylist {
+  color: lightgray;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 30px;
+  margin: 0 15px;
+}
+#playlist-list{
+  margin-left: 15px;
+}
+.playlist-list-li{
+  margin: 7px 0;
+  color: lightgray;
+  font-size: 12px;
+}
+.container-download{
+  width: 80%;
+  border-bottom: 1px solid white;
+  margin: 0 15px;
+  display: flex;
+  padding-bottom: 10px;
+}
+.container-download > img{
+  width: 15px;
+  height: auto;
+}
+#installaapp{
+  font-size: 12px;
+  color: grey;
+  margin-left: 5px;
+  line-height: 15px;
+}
+.container-user {
+  width: 80%;
+  margin: 0 15px;
+  display: flex;
+  margin-top: 10px;
+}
+.container-user > img {
+  width: 20px;
+}
+#user-name{
+  font-style: 13px;
+  margin-left: 10px;
+  line-height: 25px;
+  font-weight: bold;
+}
+/* FINE SIDEBAR */
+/* UPGRADE-BAR */
 .upgrade-bar{
-  width: 85%;
+  width: 87%;
   height: 65px;
   background-color: #080b12;
 }
+.upgrade-button{
+  border-radius: 15px 15px;
+  border: 1px solid white;
+  padding: 10px;
+  background-color: #080b12;
+  color: white;
+  margin: calc((65px - 40px) / 2) 0;
+}
+/* FINE UPGRADE-BAR */
+/* MAIN  */
+    /* NAVBAR */
+.nav-ul{
+  display: inline-block;
+  
+}
+.nav-li{
+}
+    /* FINE NAVBAR */
 .main {
-  width: 85%;
-  height: 700px;
+  width: 87%;
+  height: 100%;
   overflow-y: auto;
   background-color: #141922;
+}
+/* FINE MAIN */
+footer {
+  height: 75px;
+  width: 100%;
+  background-color: #282828;
 }
