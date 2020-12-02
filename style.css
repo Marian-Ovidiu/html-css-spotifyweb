@@ -15,9 +15,11 @@
 .color-white {
   color:white;
 }
-
+.align-center {
+  text-align: center;
+}
 /* //utility  */
-.warpper{
+.wrapper{
   height: 100vh;
   width: 100vw;
 }
@@ -31,8 +33,29 @@
   min-width: 150px;
 }
 .img-logo > img{
-  height: 40px;
+  height: 37px;
   width: auto;
+}
+#sidebar-menu{
+  list-style: none;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+#sidebar-menu > .sidebar-li-menu {
+  margin: 7px 0;
+  font-size: 16px;
+}
+#sidebar-menu > .sidebar-li-menu > img {
+  height: 23px;
+  width: auto;
+}
+#sidebar-menu > .sidebar-li-menu > a {
+  text-decoration: none;
+  vertical-align: middle;
+  margin-left: 7px;
+}
+#playlist-title {
+  margin: 20px 15px;
 }
 .upgrade-bar{
   width: 85%;
