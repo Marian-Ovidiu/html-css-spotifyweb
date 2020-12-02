@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
     <title>Spotify</title>
   </head>
   <body>
-    <div id="wrapper clearfix">
+    <div id="wrapper" class="clearfix">
       <div class="sidebar fl">
         <div class="flex">
           <div class="img-logo">
@@ -15,18 +16,18 @@
           <ul id="sidebar-menu">
             <li class="sidebar-li-menu">
               <img src="img/home.svg">
-              <a class="color-white a" href="#">Home</a>
+              <a class="a" href="#">Home</a>
             </li>
             <li class="sidebar-li-menu">
               <img src="img/search.svg">
-              <a class="color-white a" href="#">Cerca</a>
+              <a class="a" href="#">Cerca</a>
             </li>
             <li class="sidebar-li-menu">
               <img src="img/libreria.svg">
-              <a class="color-white a" href="#">La tua libreria</a>
+              <a class="a" href="#">La tua libreria</a>
             </li>
           </ul>
-          <h3 id="playlist-title" class="color-white">PLAYLIST</h3>
+          <h3 id="playlist-title">PLAYLIST</h3>
           <div class="container-add">
             <div id="add">
               <div id="width"></div>
@@ -35,13 +36,13 @@
             <h3 id="creaplaylist">Crea Playlist</h3>
           </div>
           <ul id="playlist-list" class="ul">
-            <li class="playlist-list-li"><a class="color-white a" href="#">Nome playlist</a></li>
-            <li class="playlist-list-li"><a class="color-white a" href="#">Nome playlist</a></li>
-            <li class="playlist-list-li"><a class="color-white a" href="#">Nome playlist</a></li>
-            <li class="playlist-list-li"><a class="color-white a" href="#">Nome playlist</a></li>
-            <li class="playlist-list-li"><a class="color-white a" href="#">Nome playlist</a></li>
-            <li class="playlist-list-li"><a class="color-white a" href="#">Nome playlist</a></li>
-            <li class="playlist-list-li"><a class="color-white a" href="#">Nome playlist</a></li>
+            <li class="playlist-list-li"><a class="a" href="#">Nome playlist</a></li>
+            <li class="playlist-list-li"><a class="a" href="#">Nome playlist</a></li>
+            <li class="playlist-list-li"><a class="a" href="#">Nome playlist</a></li>
+            <li class="playlist-list-li"><a class="a" href="#">Nome playlist</a></li>
+            <li class="playlist-list-li"><a class="a" href="#">Nome playlist</a></li>
+            <li class="playlist-list-li"><a class="a" href="#">Nome playlist</a></li>
+            <li class="playlist-list-li"><a class="a" href="#">Nome playlist</a></li>
           </ul>
         </div>
         <div class="flex">
@@ -61,18 +62,77 @@
       <div class="main fl">
         <nav>
           <ul class="ul nav-ul">
-            <!-- <li><a class="a nav-li" href="#">IN EVIDENZA</a></li>
-            <li><a class="a nav-li" href="#">PODCAST</a></li>
-            <li><a class="a nav-li" href="#">CLASSIFICHE</a></li>
-            <li><a class="a nav-li" href="#">GENERI E MOOD</a></li>
-            <li><a class="a nav-li" href="#">NUOVE USCITE</a> </li>
-            <li><a class="a nav-li" href="#">SCOPRI</a></li> -->
+            <li class="nav-li"><a class="a" href="#">IN EVIDENZA</a></li>
+            <li class="nav-li"><a class="a" href="#">PODCAST</a></li>
+            <li class="nav-li"><a class="a" href="#">CLASSIFICHE</a></li>
+            <li class="nav-li"><a class="a" href="#">GENERI E MOOD</a></li>
+            <li class="nav-li"><a class="a" href="#">NUOVE USCITE</a> </li>
+            <li class="nav-li"><a class="a" href="#">SCOPRI</a></li>
           </ul>
         </nav>
-
-      </div>
-      <div class="play-bar fl">
-
+        <h2 class="title-main color-white">Recently played</h2>
+        <div class="container-main">
+          <div class="container-content first">
+            <div class="box">
+              <img src="img/metal_lifting.jpg">
+              <h3 class="title-content color-white">Heavy Metal</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+            <div class="box">
+              <img src="img/stranger.jpeg">
+              <h3 class="title-content color-white">Stranger Things, Vol.1 (a Netflix Original Series SoundTrack)</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+            <div class="box">
+              <img src="img/aquietplace.jpeg">
+              <h3 class="title-content color-white">A quiet place</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+            <div class="box">
+              <img src="img/split.jpeg">
+              <h3 class="title-content color-white">Split</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+            <div class="box">
+              <img src="img/cure.jpeg">
+              <h3 class="title-content color-white">A cure for wellness</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+            <div class="box">
+              <img src="img/sinister.jpeg">
+              <h3 class="title-content color-white">Sinister</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+          </div>
+          <h2 class="title-main color-white">Creato per John Doe</h2>
+          <p class="subtitle2">Più ascolti, più accurati saranno i suggerimenti</p>
+          <div class="second clearfix">
+            <div class="boxuno fl">
+              <img src="img/radar.jpeg">
+              <h3 class="title-content color-white">Release Radar</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+            <div class="boxuno fl">
+              <img src="img/mixdaily.jpeg">
+              <h3 class="title-content color-white">Dally Mix 1</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+          </div>
+          <h2 class="title-main color-white">Artisti più popolari</h2>
+          <p class="subtitle2">Più ascolti, più accurati saranno i suggerimenti</p>
+          <div class="second third clearfix">
+            <div class="boxuno fl">
+              <img src="img/youg.jpeg">
+              <h3 class="title-content color-white">Lana del Rey</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+            <div class="boxuno fl">
+              <img src="img/einaudi.jpeg">
+              <h3 class="title-content color-white">Einaudi</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+          </div>
+        </div>
       </div>
       <footer class="fl">
 
