@@ -12,5 +12,36 @@
 .fl {
   float: left;
 }
+.color-white {
+  color:white;
+}
 
 /* //utility  */
+.warpper{
+  height: 100vh;
+  width: 100vw;
+}
+.sidebar{
+  width: 15%;
+  height: 700px;
+  background-color: #000;
+}
+.img-logo {
+  margin-top: 15px;
+  min-width: 150px;
+}
+.img-logo > img{
+  height: 40px;
+  width: auto;
+}
+.upgrade-bar{
+  width: 85%;
+  height: 65px;
+  background-color: #080b12;
+}
+.main {
+  width: 85%;
+  height: 700px;
+  overflow-y: auto;
+  background-color: #141922;
+}
