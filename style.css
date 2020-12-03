@@ -35,12 +35,13 @@
 }
 /* SIDEBAR */
 .sidebar{
-  width: 13%;
+  width: 14%;
   background-color: #000;
   height: calc(100vh - 75px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-width: 135px;
 }
 .img-logo {
   margin: 15px;
@@ -77,37 +78,27 @@
   display: flex;
   margin-left: 15px;
 }
-#add {
-  width: 25px;
-  height: 25px;
-  background-color: grey;
-  position: relative;
-}
-#width, #height {
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#add{
   background-color: #000;
+  margin: 0;
+  border: none;
+  font-size: 30px;
 }
-#width {
-  width: 15px;
-  height: 2px;
-}
-#height{
-  width: 2px;
-  height: 15px;
+#add > a {
+  color: white;
 }
 #creaplaylist {
   color: lightgray;
   display: inline-block;
   font-size: 10px;
-  line-height: 25px;
+  line-height: 45px;
   margin: 0 15px;
 }
 #playlist-list{
   margin-left: 15px;
+  height: 50%;
+  max-height: 200px;
+  overflow-y: auto;
 }
 .playlist-list-li{
   margin: 7px 0;
@@ -196,13 +187,14 @@ nav {
  font-size: 20px;
 }
 .container-content {
-  width: auto;
-  display: flex;
-  justify-content: space-around;
+  display: block;
+  width: 100%;
+  background-color: red;
 }
 .box {
-  width: 15%;
+  width: 16%;
   height: auto;
+  padding: 0 15px;
 }
 .box > img {
   width: 100%;
@@ -241,4 +233,20 @@ footer {
   height: 75px;
   width: 100%;
   background-color: #282828;
+}
+
+@media screen and (max-width: 992px) {
+  .sidebar-md {
+    width: 20%;
+  }
+  .upgrade-bar-md{
+    width: 80%;
+  }
+  .main-md {
+    width:80%;
+  }
+  .box-md {
+    width: 22%;
+  }
+
 }

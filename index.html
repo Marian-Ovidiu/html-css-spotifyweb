@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Spotify</title>
   </head>
   <body>
     <div id="wrapper" class="clearfix">
-      <div class="sidebar fl">
+      <div class="sidebar sidebar-md fl">
         <div class="flex">
           <div class="img-logo">
             <img src="img/logo.svg">
@@ -29,10 +30,7 @@
           </ul>
           <h3 id="playlist-title">PLAYLIST</h3>
           <div class="container-add">
-            <div id="add">
-              <div id="width"></div>
-              <div id="height"></div>
-            </div>
+            <button type="button" id="add"><a href="#"><i class="fa fa-plus-square-o" aria-hidden="true"></i></a></button>
             <h3 id="creaplaylist">Crea Playlist</h3>
           </div>
           <ul id="playlist-list" class="ul">
@@ -56,10 +54,10 @@
           </div>
         </div>
       </div>
-      <div class="upgrade-bar fl">
+      <div class="upgrade-bar upgrade-bar-md fl">
         <button class="upgrade-button fr" type="button">EFFETTUA L'UPGRADE</button>
       </div>
-      <div class="main fl">
+      <div class="main main-md fl">
         <nav>
           <ul class="ul nav-ul">
             <li class="nav-li"><a class="a" href="#">IN EVIDENZA</a></li>
@@ -72,33 +70,33 @@
         </nav>
         <h2 class="title-main color-white">Recently played</h2>
         <div class="container-main">
-          <div class="container-content first">
-            <div class="box">
+          <div class="container-content clearfix">
+            <div class="box box-md fl">
               <img src="img/metal_lifting.jpg">
               <h3 class="title-content color-white">Heavy Metal</h3>
               <p class="subtitle">Subtitle</p>
             </div>
-            <div class="box">
+            <div class="box box-md fl">
               <img src="img/stranger.jpeg">
               <h3 class="title-content color-white">Stranger Things, Vol.1 (a Netflix Original Series SoundTrack)</h3>
               <p class="subtitle">Subtitle</p>
             </div>
-            <div class="box">
+            <div class="box box-md fl">
               <img src="img/aquietplace.jpeg">
               <h3 class="title-content color-white">A quiet place</h3>
               <p class="subtitle">Subtitle</p>
             </div>
-            <div class="box">
+            <div class="box box-md fl">
               <img src="img/split.jpeg">
               <h3 class="title-content color-white">Split</h3>
               <p class="subtitle">Subtitle</p>
             </div>
-            <div class="box">
+            <div class="box box-md fl">
               <img src="img/cure.jpeg">
               <h3 class="title-content color-white">A cure for wellness</h3>
               <p class="subtitle">Subtitle</p>
             </div>
-            <div class="box">
+            <div class="box box-md fl">
               <img src="img/sinister.jpeg">
               <h3 class="title-content color-white">Sinister</h3>
               <p class="subtitle">Subtitle</p>
