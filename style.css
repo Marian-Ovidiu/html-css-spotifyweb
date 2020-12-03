@@ -242,10 +242,23 @@ footer {
   }
   .main-md {
     width:80%;
-
   }
   .box-md {
     width: 25%;
   }
 
+}
+@media screen and (max-width: 768px) {
+  .sidebar-s {
+    width: 35%;
+  }
+  .upgrade-bar-s{
+    width: 65%;
+  }
+  .main-s {
+    width:65%;
+  }
+  .box-s {
+    width: 50%;
+  }
 }
