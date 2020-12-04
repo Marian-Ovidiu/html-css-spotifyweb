@@ -182,7 +182,7 @@ nav {
 }
 .nav-ul{
   padding: 15px;
-  width: 60%;
+  width: 100%;
   margin: auto;
   text-align: center;
 }
@@ -410,8 +410,23 @@ footer {
 }
 
 /* FINE FOOTER */
-@media (min-width: 577px) and (max-width: 768px)
- {
+@media(max-width: 576px){
+  .sidebar-xs {
+    width: 10%;
+  }
+  .a, #playlist-title, .container-add, #playlist-list,
+  #installaapp, #username {
+    display: none;
+  }
+  .upgrade-bar-xs, .main-xs{
+    width: 90%;
+  }
+  .box-xs {
+    width: calc(100% / 2 );
+  }
+
+}
+@media (min-width: 577px) and (max-width: 768px) {
   .sidebar-s {
     width: 35%;
   }
@@ -419,7 +434,7 @@ footer {
     width: 65%;
   }
   .box-s {
-    width: 50%;
+    width: calc(100% / 2 );
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
